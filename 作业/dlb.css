@@ -1,0 +1,16 @@
+.h2 {
+	text-align:center;
+	color:blueviolet;
+}
+a:hover {
+	color:yellow;
+}
+.h4 {
+	color:crimson;
+	text-align:left;
+	font-weight:bolder;
+}
+.p {
+	font-style:italic;
+	color:green;
+}

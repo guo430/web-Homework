@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>注册</title>
+    <body>
+        <form name="uesranme" method="GET" action="http://www.baidu.com">
+            <p>下面是某网站的调查报告</p>
+            <p>
+                登录用户名：<input name="user" type="text" value=""/>
+            </p>
+            <P>
+                登录密码:<input name="psd" type="password" value="" maxlength="12" size="12"/>
+            </P>
+            <p><hr color="red" width="50%" align="left">
+            </p>
+            <p>
+                调查具体内容
+            </p>
+            <p>
+                出生日期：<input name="number" type="number" min="1900" max="2019" value="1982"/>
+                     &nbsp;年  &nbsp;<input name="number" type="number" min="1" max="12" 
+                         step="1" value="03"/>
+                         &nbsp;月  &nbsp;<input name="number" type="number" min="1" max="31"
+                         step="1" value="02"/>&nbsp;日 
+            </p>
+            <P>
+                所在城市：
+                         <input name="place" type="radio" value="zhuzhou" checked="checked"/>株洲 
+                         <input name="place" type="radio" value="wuhan"/>武汉
+                         <input name="place" type="radio" value="sahnghai"/>上海
+                         <input name="place" type="radio" value="beijing"/>北京
+                         <input name="place" type="radio" value="shenzhen"/>深圳
+                         <input name="place" type="radio" value="other"/>其他
+            </P>
+            <P>
+                爱好：
+                <input name="place" type="checkbox" value="get internet" checked="checked"/>上网
+                <input name="place" type="checkbox" value="writing"/>写作
+                <input name="place" type="checkbox" value="drawer"/>绘画
+                <input name="place" type="checkbox" value="rhyme"/>作诗
+                <input name="place" type="checkbox" value="sing"/>唱歌
+                <input name="place" type="checkbox" value="other"/>其他
+            </P>
+            <P>
+                附加内容：<textarea name="info" cols="15" rows="5">请在此输入内容</textarea>
+            </P>
+            <!-- <p><input name="tijiao" type="submit" value="提交"/>
+                <input name="chongzhi" type="submit" value="重置"/>
+            </p> -->
+
+        </form>
+    </body>
+</head>
+</html>

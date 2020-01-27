@@ -1,0 +1,13 @@
+a:hover {
+	font-family:微软雅黑;
+	font-size:20px;
+	font-weight:bolder;
+	color:red;
+}
+p {
+	color:blue;
+}
+.p {
+	color:chartreuse;
+	font-style:oblique;
+}
